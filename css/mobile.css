@@ -1,0 +1,33 @@
+.first-container .part-2 .iphone img {
+    width: 40%;
+}
+
+.first-container .part-2 .iphone img {
+    display: none;
+}
+
+.container {
+    text-align: center;
+}
+
+#custom {
+    text-align: center;
+ }
+
+#custom iframe {
+    padding-left: 0 !important;
+    margin-top: 2rem;
+    margin-left: 0 !important;
+}
+
+#imege-2 {
+    margin: 0;
+}
+
+#custom-2 h5 {
+    padding-left: 30px;
+}
+
+ #custom {
+    padding-left: 0 !important;
+ }

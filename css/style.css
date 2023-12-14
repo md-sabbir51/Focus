@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800;900&family=Pacifico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Utiliteis */
+
+h1 {
+    font-family: 'Pacifico', cursive;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.container p {
+    font-size: 15px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000;
+}
+
+ul {
+    list-style: none;
+    display: inline-block;
+}
+
+/* First section start */
+
+.first-container {
+    width: 100%; 
+}
+
+.first-container .bc-img img {
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    height: 33rem;
+}
+
+.first-container .logo {
+    position: absolute;
+    z-index: 10;
+    float: left;
+    text-align: center;
+    /* top: 50%; */
+    left: 50%;
+    transform: translatex(-50% ); 
+}
+
+.first-container .logo h1 {
+     font-size: 3rem;
+}
+
+.first-container .part-2 p {
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
+.first-container .part-2 .arrow img {
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+
+.first-container .part-2 .iphone img {
+    width: 81%;
+    padding-top: 2rem;
+}
+
+/* First section end */
+
+/* Second section start  */
+
+.container {
+    position: relative;
+    z-index: 15;
+    /* margin: auto; */
+    padding-top: 34rem;
+}
+
+/* Second section end  */
+
+/* Third section start  */
+
+#custom {
+   margin-top: 8rem;
+   background-color: #e3e3e3;
+   padding-left: 5rem !important;
+}
+
+#custom .row {
+    --bs-gutter-x: 0 !important;
+}
+
+#custom iframe {
+     border-radius: 10px !important;
+}
+
+#custom h3 {
+    padding-bottom: 10px;
+ }
+
+#custom p {
+    padding-bottom: 10px;
+    opacity: .6;
+    /* padding-right: 3rem; */
+}
+
+#custom .icon i {
+    font-size: 3rem;
+    opacity: .6;
+    padding-right: 15px;
+}
+
+#custom .icon i:hover {
+    opacity: 1;
+}
+
+#custom iframe {
+    margin-left: 3rem;
+}
+
+/* Third section end  */
+
+#custom-2 {
+    text-align: center;
+}
+
+#custom-2 h5 {
+    padding-top: 2.5rem;
+}
+
+#custom-2 p {
+    padding-bottom: 1rem;
+}
+
+#imege-2 {
+    margin: 0 6rem;
+    padding-bottom: 3rem;
+}
+
+#imege-2 img {
+    width: 6.3rem;
+    filter: grayscale(100);
+}
+
+#imege-2 .img-1:hover {
+    
+    filter: grayscale(0);
+}
+
+#custom-2 .pra-1 {
+    opacity: .6;
+    padding-bottom: 5px;
+}
+
+#custom-2 .icon-2 i {
+    font-size: 30px;
+    padding-right: 5px;
+    opacity: .6;
+   padding-bottom: 3rem;
+}
+
+#custom-2 .icon-2 .i-1:hover {
+    opacity: 1;
+}
+
+#custom-2 .footer {
+    background-color: #e3e3e3;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+#custom-2 .footer ul li a {
+    opacity: .6;
+}
+
+#custom-2 .footer ul li a:hover {
+    opacity: 1;
+    color: red;
+}
